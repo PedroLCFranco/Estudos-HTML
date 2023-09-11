@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+p {
+    font-family:Verdana, sans-serif;
+    font-size: 12px;
+    justify-content: center;
+    line-height: 2;
+    display: flex;
+    align-items: center;
+    width:300px;
+    margin:auto;
+    color: red;
+}
+
+.box{
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+}

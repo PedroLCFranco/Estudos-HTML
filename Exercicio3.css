@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+table {
+    width: 600px;
+}
+
+th {
+    background-color: #66C5E3;
+    color: black;
+}
+
+td {
+    background-color: #C7E7F3;
+    color: #0D5188;
+}
+
+caption {
+    background-color: #0D5188;
+    color: white;
+}
+
+.position-values {
+    background-color: silver;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+.pop-values {
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+.pos-10 {
+    width: 60px;
+}
+
+.quant-15 {
+    width: 90px;
+}
+
+.text-left {
+    text-align: left;
+}

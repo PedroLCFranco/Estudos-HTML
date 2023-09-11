@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    font-size: 10pt;
+}
+
+.font-tahoma{
+    font-family: Tahoma;
+}
+
+.font-verdana{
+    font-family: Verdana;
+}
+
+.font-arial-sf{
+    font-family: Arial, sans-serif;
+}
+
+.red-text {
+    color: red;
+}

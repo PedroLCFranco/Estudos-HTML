@@ -1,0 +1,114 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Arial;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+}
+
+tr {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+th {
+    font-size: 13px;
+    color: #999999;
+    font-weight: bold;
+    text-align: center;
+}
+
+td:nth-child(odd) {
+    background:#F7F7F7;
+}
+
+td:nth-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+}
+
+tr:nth-child(4) td:nth-child(1) {
+    color: #1398BE;
+}
+
+tr:nth-child(n+1):nth-child(-n+3) td:nth-child(1) {
+    color: #003366;
+}
+
+tr:nth-child(n+5):nth-child(-n+12) td:nth-child(1) {
+    color: #DE9800;
+}
+
+tr:nth-child(n+13):nth-child(-n+16) td:nth-child(1) {
+    color: #CCCCCC;
+}
+
+tr:nth-child(n+17):nth-child(-n+20) td:nth-child(1) {
+    color: #C91B04;
+}
+
+.team-name {
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    text-align: left;
+    width: 170px;
+    overflow: hidden;
+}
+
+.team-points {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team-informations {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+
+.infos {
+    width: 30px;
+    overflow: hidden;
+}
+
+tr:nth-child(4), tr:nth-child(16){
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.legend {
+    margin: auto;
+    border: 1px solid #DDDDDD;
+    font-size: 10px;
+    text-align: left;
+}
+
+.legend .classifier {
+    color: #8F8F8F;
+}
+
+.legend .acronym {
+    color: #555555;
+    font-weight: bold;
+}
+
+.legend .classifier li {
+    list-style-type: square;
+    display: inline-block;
+}
